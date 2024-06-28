@@ -1,0 +1,169 @@
+/* for name like hone.contact */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  /* for Logo and name like home.contact put into a center */
+  
+  .navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #fee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
+  
+  }
+  
+  /* for arrangement pages home contact */
+  
+  .menu ul {
+      display: flex;
+      align-items: center;
+  }
+  
+  .menu ul li a {
+      text-decoration: none;
+      color: #000;
+      padding: 5px 12px;
+      letter-spacing: 2px;
+      font-size: 18px;
+  }
+  
+  /* with effect for touching home,contact booking etc. */
+  
+  .menu ul li a:hover {
+      border-bottom: 4px solid #000;
+      transition: 0.4s;
+  
+  }
+  
+  /* for change the style of sign up */
+  
+  .signup a {
+      text-decoration: none;
+      color: #000;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 12px;
+      padding: 12px 30px;
+      border: 2px solid #ff0000;
+  }
+  
+  .signup a:hover {
+      background-color: red;
+      transition: 0.6s;
+  }
+
+
+.contact{
+    padding: 50px 100px;
+}
+#section7{
+    background-color:lightpink;
+    height: 100vh;
+    background-image: none, url('background.jpeg');
+}
+.container3{
+    width: 80%;
+    background: white;
+    padding: 20px 20px 40px 40px;
+    border-radius: 6px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.81);
+
+    margin: auto;
+}
+.container3 .content1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container3 .content1 .left{
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+.container3 .content1 .left::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+}
+.container3 .content1 .left .text-one, 
+.container3 .content1 .left .text-two{
+    font-size: 14px;
+    color: gray;
+}
+.container3 .right .topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: lightpink;
+}
+.container3 .right .input-box{
+    height: 50px;
+    width: 100%; 
+    margin: 12px 0;
+}
+.container3 .right .input-box input,
+.container3 .right .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    background: #f0f1f8;
+    font-size: 16px;
+    padding: 0 15px;
+    resize: none;
+}
+.right .message-box{
+    min-height: 110px;
+    resize: none;
+}
+.send-now-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(219, 68, 93);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .send-now-btn:hover {
+    background-color: rgb(234, 131, 148);
+  }
+.content1 .left .details{
+    margin: 14px;
+    text-align: center;
+}
+.content1 .left .details i{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: teal;
+}
+.content1 .left .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.container3 .content1 .right{
+    width: 75%;
+    margin-left: 75px;
+}
+.section-heading{
+    color: rgb(219, 68, 93);
+}
+.right .topic-text{
+    color: rgb(219, 68, 93);
+}
